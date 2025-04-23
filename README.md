@@ -33,9 +33,17 @@ WebCarros é um sistema de catálogo de veículos, desenvolvido com React.js no 
 
 ```bash
 git clone https://github.com/seu-usuario/webcarros.git
-cd webcarros
-npm install
-npm run dev
-
-
 ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd webCarros
+   ```
+
+3. Utilize o React e Vite:
+
+   ```bash
+   npm install
+   npm run dev
+   ```
