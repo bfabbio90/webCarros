@@ -37,13 +37,13 @@ git clone https://github.com/seu-usuario/webcarros.git
 
 2. Navegue até o diretório do projeto:
 
-   ```bash
-   cd webCarros
-   ```
+```bash
+cd webCarros
+```
 
 3. Utilize o React e Vite:
 
-   ```bash
-   npm install
-   npm run dev
-   ```
+```bash
+npm install
+npm run dev
+```
