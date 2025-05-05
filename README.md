@@ -58,7 +58,7 @@ docker run -p 8080:80 carros
 ```
 
 4. Acesse a aplicação
-5. 
+
 Abra o navegador e vá até:
 
 http://localhost:8080
