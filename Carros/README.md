@@ -33,7 +33,32 @@ WebCarros é um sistema de catálogo de veículos, desenvolvido com React.js no 
 
 ```bash
 git clone https://github.com/seu-usuario/webcarros.git
-cd webcarros
-
-
 ```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd Carros
+```
+
+3. 🐳 Docker:
+
+Este projeto utiliza Docker para criar um ambiente de produção com Node.js e Nginx. Siga os passos abaixo para clonar e executar o contêiner corretamente:
+
+Construa / 'bilde' a imagem:
+
+```docker
+docker build -t carros .
+```
+
+Rode o contêiner:
+
+```docker
+docker run -p 8080:80 carros
+```
+
+4. Acesse a aplicação
+
+Abra o navegador e vá até:
+
+http://localhost:8080
