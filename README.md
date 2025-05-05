@@ -57,7 +57,8 @@ Rode o contêiner:
 docker run -p 8080:80 carros
 ```
 
+4. Acesse a aplicação
+5. 
+Abra o navegador e vá até:
 
-## ▶️ Crédito:
-
-- Curso Sujeito Programador
+http://localhost:8080
