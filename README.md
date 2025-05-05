@@ -41,12 +41,22 @@ git clone https://github.com/seu-usuario/webcarros.git
 cd Carros
 ```
 
-3. Utilize o React e Vite:
+3. 🐳 Docker:
 
-```bash
-npm install
-npm run dev
+Este projeto utiliza Docker para criar um ambiente de produção com Node.js e Nginx. Siga os passos abaixo para clonar e executar o contêiner corretamente:
+
+Construa / 'bilde' a imagem:
+
+```docker
+docker build -t carros .
 ```
+
+Rode o contêiner:
+
+```docker
+docker run -p 8080:80 carros
+```
+
 
 ## ▶️ Crédito:
 
